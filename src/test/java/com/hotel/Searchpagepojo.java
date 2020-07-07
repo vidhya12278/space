@@ -47,9 +47,7 @@ private WebElement radio;
 
 @FindBy(id="continue")
 private WebElement con;
-public WebDriver getDriver() {
-	return driver;
-}
+
 
 public WebElement getLoc() {
 	return loc;

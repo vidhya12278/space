@@ -18,9 +18,7 @@ PageFactory.initElements(driver, this);
 @FindBy(id="order_no")
 private WebElement order;
 
-public WebDriver getDriver() {
-	return driver;
-}
+
 
 public WebElement getOrder() {
 	return order;

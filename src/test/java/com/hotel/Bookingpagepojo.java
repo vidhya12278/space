@@ -44,9 +44,7 @@ private WebElement ccv;
 @FindBy(id="book_now")
 private WebElement bookbutton;
 
-public WebDriver getDriver() {
-	return driver;
-}
+
 
 public WebElement getFirst() {
 	return first;
