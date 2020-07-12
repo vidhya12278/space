@@ -6,6 +6,7 @@ import java.io.IOException;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -38,6 +39,13 @@ public class Baseclass
 	public String gettitle() 
 	{
 		return driver.getTitle();
+	}
+	
+	public byte[] screenshot() 
+	{
+		TakesScreenshot k=(TakesScreenshot) driver;
+		byte[] h=k.getScreenshotAs(OutputType.BYTES);
+		return h;
 	}
 	
 	public static void type(WebElement t,String data) 
@@ -135,5 +143,9 @@ public class Baseclass
 		return g.isEnabled();
 	}
 	
+	public static void quit()
+	{
+	driver.quit();	
+  }
 
 }

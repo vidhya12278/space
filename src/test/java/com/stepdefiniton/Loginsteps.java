@@ -19,7 +19,6 @@ public class Loginsteps extends Baseclass
 	@Given("user is on hotel page")
 	public void user_is_on_hotel_page()
 	{
-		driver=getDriver();
 		openurl("http://adactinhotelapp.com/");
 		maximize();
 		System.out.println(geturl());
