@@ -9,7 +9,7 @@ import cucumber.api.java.en.When;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= {"src\\test\\resources"},glue= {"com.stepdefiniton"},monochrome=true)
+@CucumberOptions(features= {"src\\test\\resources"},glue= {"com.stepdefiniton"},monochrome=true,dryRun=false,tags= {"@smoke,@reg"})
 public class TestRunner 
 {
 

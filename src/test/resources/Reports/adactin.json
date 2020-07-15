@@ -1,228 +1,247 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 17,
-        "name": "verifying user details with valid credentials",
+        "line": 10,
+        "name": "user personal valid credentials",
         "description": "",
-        "id": "verifying-adactin-hotel-user-details;verifying-user-details-with-valid-credentials;;2",
+        "id": "verifying-adactin-hotel-user-details;user-personal-valid-credentials;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 29150340500,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 3,
-            "name": "user is on hotel page",
-            "match": {
-              "location": "Hotelpage.user_is_on_hotel_page()"
-            },
+            "line": 5,
+            "name": "user is on hotel booking page",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1293449000,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 4,
-            "name": "i should enters \"vidhyaes\" and \"vid@98\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"vidhyaes\"",
-                  "offset": 16
-                },
-                {
-                  "val": "\"vid@98\"",
-                  "offset": 31
-                }
-              ],
-              "location": "Hotelpage.i_should_enters_and(String,String)"
+            "line": 6,
+            "name": "i should enter payment deatils \"vidhya\" and \"E\" and \"Adyar\" and \"1234567891012345\" and \"\u003ccreditcardtype\u003e\"",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func3"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "user personal valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-user-details;user-personal-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 14,
+            "name": "i should enter card details \"May\" and \"2022\"",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2535759600,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 5,
-            "name": "i should click the login button",
-            "match": {
-              "location": "Hotelpage.i_should_click_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 8483524100,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "i should enter \"London\" and \"HotelCreek\" and \"\u003cRoomtype\u003e\" and \"1 - One\" and \"04/07/2020\" and \"09/07/2020\" and \"1 - One\" and \"1 - One\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"London\"",
-                  "offset": 15
-                },
-                {
-                  "val": "\"HotelCreek\"",
-                  "offset": 28
-                },
-                {
-                  "val": "\"\u003cRoomtype\u003e\"",
-                  "offset": 45
-                },
-                {
-                  "val": "\"1 - One\"",
-                  "offset": 62
-                },
-                {
-                  "val": "\"04/07/2020\"",
-                  "offset": 76
-                },
-                {
-                  "val": "\"09/07/2020\"",
-                  "offset": 93
-                },
-                {
-                  "val": "\"1 - One\"",
-                  "offset": 110
-                },
-                {
-                  "val": "\"1 - One\"",
-                  "offset": 124
-                }
-              ],
-              "location": "Hotelpage.i_should_enter_and_and_and_and_and_and_and(String,String,String,String,String,String,String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 4480774600,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "i should click search button",
-            "match": {
-              "location": "Hotelpage.i_should_click_search_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5741719500,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "i should enter payment deatils \"vidhya\" and \"E\" and \"Adyar\" and \"1234567891012345\" and \"\u003ccreditcardtype\u003e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"vidhya\"",
-                  "offset": 31
-                },
-                {
-                  "val": "\"E\"",
-                  "offset": 44
-                },
-                {
-                  "val": "\"Adyar\"",
-                  "offset": 52
-                },
-                {
-                  "val": "\"1234567891012345\"",
-                  "offset": 64
-                },
-                {
-                  "val": "\"\u003ccreditcardtype\u003e\"",
-                  "offset": 87
-                }
-              ],
-              "location": "Hotelpage.i_should_enter_payment_deatils_and_and_and_and(String,String,String,String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 232259600,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "i should enter card details \"May\" and \"2022\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"May\"",
-                  "offset": 28
-                },
-                {
-                  "val": "\"2022\"",
-                  "offset": 38
-                }
-              ],
-              "location": "Hotelpage.i_should_enter_card_details_and(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3172351100,
-              "status": "passed"
-            },
-            "line": 10,
+            "line": 15,
             "name": "i should enter \"\u003ccvvno\u003e\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\u003ccvvno\u003e\"",
-                  "offset": 15
-                }
-              ],
-              "location": "Hotelpage.i_should_enter(String)"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 78845800,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 11,
+            "line": 16,
             "name": "i should click booknow button",
-            "match": {
-              "location": "Hotelpage.i_should_click_booknow_button()"
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func3"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "user personal valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-user-details;user-personal-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 24,
+            "name": "user is on hotel booking page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "i should enter payment deatils \"vidhya\" and \"E\" and \"ecr\" and \"1234567891012345\" and \"\u003ccreditcardtype\u003e\"",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func3"
+          },
+          {
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "line": 39,
+        "name": "user personal valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-user-details;user-personal-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "i should enter card details \"July\" and \"2021\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "i should enter \"\u003ccvvno\u003e\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 13514593800,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 12,
-            "name": "get orderno",
-            "match": {
-              "location": "Hotelpage.get_orderno()"
+            "line": 35,
+            "name": "i should click booknow button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func3"
+          },
+          {
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "user personal valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-user-details;user-personal-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 43,
+            "name": "user is on hotel booking page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44,
+            "name": "i should enter payment deatils \"vidhya\" and \"E\" and \"chennai\" and \"1234567891012345\" and \"\u003ccreditcardtype\u003e\"",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func3"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 58,
+        "name": "user personal valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-user-details;user-personal-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 52,
+            "name": "i should enter card details \"June\" and \"2021\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 53,
+            "name": "i should enter \"\u003ccvvno\u003e\"",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 405600,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 13,
-            "name": "user should verify message",
-            "match": {
-              "location": "Hotelpage.user_should_verify_message()"
-            },
-            "keyword": "Then "
+            "line": 54,
+            "name": "i should click booknow button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func3"
+          },
+          {
+            "name": "@sanity"
           }
         ]
       }
@@ -231,7 +250,287 @@
     "description": "",
     "id": "verifying-adactin-hotel-user-details",
     "keyword": "Feature",
-    "uri": "src/test/resources/Features/Hotel.feature",
-    "tags": []
+    "uri": "src/test/resources/Features/Booking.feature",
+    "tags": [
+      {
+        "name": "@func3",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "verifying user details with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-user-login-details;verifying-user-details-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user is on hotel page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "i should enters \"vidhyaes\" and \"vid@98\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "i should click the login button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func1"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@reg"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "verifying user details with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-user-login-details;verifying-user-details-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user is on hotel page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "i should enters \"vidhyaes\" and \"vid@98\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "i should click the login button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func1"
+          },
+          {
+            "name": "@reg"
+          }
+        ]
+      }
+    ],
+    "name": "verifying adactin hotel user login details",
+    "description": "",
+    "id": "verifying-adactin-hotel-user-login-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Login.feature",
+    "tags": [
+      {
+        "name": "@func1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 11,
+        "name": "valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-search-details;valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on hotel search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "i should enter \"London\" and \"HotelCreek\" and \"\u003cRoomtype\u003e\" and \"1 - One\" and \"04/07/2020\" and \"09/07/2020\" and \"1 - One\" and \"1 - One\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "i should click search button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func2"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-search-details;valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user is on hotel search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "i should enter \"London\" and \"HotelCreek\" and \"\u003cRoomtype\u003e\" and \"1 - One\" and \"04/07/2020\" and \"09/07/2020\" and \"1 - One\" and \"1 - One\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "i should click search button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func2"
+          },
+          {
+            "name": "@reg"
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "valid credentials",
+        "description": "",
+        "id": "verifying-adactin-hotel-search-details;valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "user is on hotel search page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "i should enter \"London\" and \"HotelCreek\" and \"\u003cRoomtype\u003e\" and \"1 - One\" and \"04/07/2020\" and \"09/07/2020\" and \"1 - One\" and \"1 - One\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "i should click search button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@func2"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "verifying adactin hotel search details",
+    "description": "",
+    "id": "verifying-adactin-hotel-search-details",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Search.feature",
+    "tags": [
+      {
+        "name": "@func2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
